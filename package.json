@@ -1,0 +1,19 @@
+{
+  "name": "stoper",
+  "version": "1.0.0",
+  "description": "stopper",
+  "main": "script.js",
+  "scripts": {
+    "test": "babel",
+    "start": "babel script.js --watch --out-file script-compiled.js"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "Kamila",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
